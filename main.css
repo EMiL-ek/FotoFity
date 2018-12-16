@@ -1,3 +1,23 @@
+
+:root {
+    --linki: #5352ed;
+    --ladny: #ffa801
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: 0 0;
+    list-style-type: none;
+    vertical-align: baseline;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #2d3436
+}
+
+
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
 .h3-section,
@@ -53,28 +73,10 @@ input {
     box-sizing: border-box
 }
 
-:root {
-    --linki: #5352ed;
-    --ladny: #ffa801
-}
-
 @keyframes border {
     100% {
         width: 100%
     }
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-    background: 0 0;
-    list-style-type: none;
-    vertical-align: baseline;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: 400;
-    color: #2d3436
 }
 
 .atut,
@@ -508,8 +510,8 @@ textarea {
     position: absolute;
     top: 20%;
     width: 100%;
-    font-size: 18px !important;
-    color: var(--linki) !important;
+    font-size: 18px;
+    color: var(--linki);
     padding: 0 !important;
     display: none
 }
