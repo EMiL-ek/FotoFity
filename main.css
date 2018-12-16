@@ -18,8 +18,7 @@ input {
 .projects,
 .s4,
 .top-bar,
-.wrapper,
-e-about {
+.wrapper {
     display: flex
 }
 
